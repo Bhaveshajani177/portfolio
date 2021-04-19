@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+    <div class="navigation-wrap bg-light start-header start-style">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-md navbar-light">
+
+                        <a class="navbar-brand" href="#" target=""><img src="wallpaper/logo.png" alt=""></a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                    <a class="nav-link" href="index.html">HOME</a>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link" href="#contact">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="portfolio">
+        <div class="container section-container pt-120 pb-50 mb-50">
+            <div class="section-title text-center mb-50">
+                <h2 class="mb-20 bold">MY PORTFOLIO</h2>
+                <div class="horizontal-line">
+                    <div class="top"></div>
+                    <div class="bottom"></div>
+                </div>
+            </div>
+            <div class="section-body">
+                <div id="myBtnContainer" class="mb-20">
+                    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                    <button class="btn" onclick="filterSelection('nature')"> HTML & CSS</button>
+                    <button class="btn mvmt" onclick="filterSelection('cars')"> Angular</button>
+                </div>
+
+                <!-- Portfolio Gallery Grid -->
+                <div class="portfolioRow">
+                    <div class="column nature">
+                        <div class="content">
+                            <a href=""><img src="./wallpaper/bg.png" alt="Mountains" style="width:100%;height:230px"></a>
+                        </div>
+                    </div>
+                    <div class="column nature">
+                        <div class="content">
+                            <a href="https://bhaveshajani177.github.io/split-screen-leading-page/"><img src="./wallpaper/1.png" alt="Mountains" style="width:100%;height:230px"></a>
+                        </div>
+                    </div>
+                    <div class="column nature">
+                        <div class="content">
+                            <a href=""><img src="./wallpaper/bg.png" alt="Mountains" style="width:100%;height:230px"></a>
+                        </div>
+                    </div>
+
+                    <div class="column cars">
+                        <div class="content">
+                            <a href=""><img src="./wallpaper/bg.png" alt="Mountains" style="width:100%;height:230px"></a>
+                        </div>
+                    </div>
+                    <div class="column cars">
+                        <div class="content">
+                            <a href="https://bhaveshajani177.github.io/angular-material-registration-form-with-validation/"><img src="./wallpaper/2.png" alt="Mountains" style="width:100%;height:230px"></a>
+                        </div>
+                    </div>
+                    <div class="column cars">
+                        <div class="content">
+                            <a href="https://bhaveshajani177.github.io/angular-material-login-form/"><img src="./wallpaper/3.png" alt="Mountains" style="width:100%;height:230px"></a>
+                        </div>
+                    </div>
+                    <!-- END GRID -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="page-footer font-small">
+
+        <div class="footer-container">
+            <div class="container-fluid footer-social-container">
+
+                <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center ">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 ">
+                        <h6 class="mb-0 ">Get connected with us on social networks!</h6>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right ">
+
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/bhavesh.ajani.127" class="social-icon">
+                            <i class="fab fa-facebook-f white-text mr-4 "></i>
+                        </a>
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/bhaveshajani177" class="social-icon">
+                            <i class="fab fa-twitter white-text mr-4 "></i>
+                        </a>
+                        <!--Linkedin -->
+                        <a href="https://www.linkedin.com/in/bhavesh-ajani-7b304b182/" class="social-icon">
+                            <i class="fab fa-linkedin-in white-text mr-4 "></i>
+                        </a>
+                        <!-- Instagram
+                        <a href="" class="social-icon">
+                            <i class="fab fa-instagram white-text"></i>
+                        </a> -->
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+
+
+            <!-- Footer Links -->
+            <div class="container footer-link-container text-center text-md-left mt-5 ">
+
+                <!-- Grid row -->
+                <div class="row mt-3 ">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mb-4 ">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold font-18">Useful links</h6>
+                        <p>
+                            <a href="https://github.com/Bhaveshajani177">Github Account</a>
+                        </p>
+                        <p>
+                            <a href="https://www.facebook.com/bhavesh.ajani.127">Facebook Account</a>
+                        </p>
+                        <p>
+                            <a href="https://www.facebook.com/bhavesh.ajani.127">Facebook Account</a>
+                        </p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="contact col-md-6 col-lg-6 col-xl-6 mx-auto mb-md-0 mb-4 pb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold font-18">Contact</h6>
+                        <p>
+                            <i class="fa fa-home mr-3 "></i>
+                            <span>Jeshingapara, Amreli, India</span>
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope mr-3 "></i>
+                            <span>bhaveshajani177@gmail.com</span>
+                        </p>
+                        <p>
+                            <i class="fa fa-phone mr-3 "></i>
+                            <span>+ 91 635 527 3748</span>
+                        </p>
+                        <p>
+                            <i class="fab fa-whatsapp mr-3 font-18"></i>
+                            <span>+ 91 706 938 2489</span>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="">bhaveshajani177</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+    <!-- Link to back to top -->
+    <a href="" class="link-to-portfolio backToTop">
+        <span class="arroe-up"><i class="fas fa-arrow-up"></i></span>
+    </a>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- custome script -->
+    <script src="index.js"></script>
+</body>
+
+</html>
